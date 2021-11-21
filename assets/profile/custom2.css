@@ -1,0 +1,14 @@
+/* body{overflow:hidden;} */
+@media only screen and (max-width:560px) {
+	.left-admin-menu{/*left: -10px;*/}
+	.left-admin-menu .navbar .navbar-collapse{margin-top:0px;}
+	.ofhidden #content{overflow:hidden;height:765px;}
+	.ofauto #content{overflow:auto;height:unset;}
+	
+	
+	.left-admin-menu .left-icon{padding-left:0px;margin-top:0px;}
+	.navbar-inverse .right{padding-right:0px !important;}
+	/*.left-admin-menu .user{background:#1d1f23;}
+	.left-admin-menu .navbar-nav{background:#1d1f23;} */
+	.left-admin-menu .navbar-toggler{padding-left:15px;}
+}

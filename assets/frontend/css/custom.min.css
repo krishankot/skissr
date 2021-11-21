@@ -1,0 +1,323 @@
+/******************************Css added for the new thumbnail listing page 28-5-21 Start************************/
+.text-content{text-align:center;}
+.custom-toggle-btnn{background:#F0F0F0;color:#000;}
+	 .onlydesk .our-escort-box{min-height:480px;}
+	 /*.overlay-bottom{filter:blur(12px);transform:scale(6) translateY(60px); } */
+	/*.our-escort-box:hover .overlay-bottom.bottom-without-tour{background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 15%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.1));height:100%} */
+	/*.our-escort-box:hover .overlay-bottom.bottom-without-tour{background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 99%);height:100%} */
+	
+	.onlydesk .our-escort-box:hover .overlay-bottom.bottom-without-tour{background: linear-gradient(to top, rgb(0 0 0 / 78%) 0%, rgb(0 0 0 / 0%) 100%, rgb(0 0 0 / 0%) 100%);}
+	.onlydesk .our-escort-box:hover{border:0px;box-shadow:none;}
+	.onlydesk .our-escort-box{border:0px;}
+	.escort-row.no-gutters{margin-left:-5px;margin-right:-5px;}
+	.escort-row.no-gutters > .col, .escort-row.no-gutters > [class*="col-"] {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	.estitle{margin-bottom:15px;}
+	.estitle span{color:#fff;font-size:20px; font-weight:800;font-family: "Sitka Banner" !important;}
+	.onlydesk .text p:first-child {
+		max-width: 120px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+/*******************************Css added for the new thumbnail listing page 28-5-21 End***************************/
+
+.feed_action_like .emojies-box{left:unset !important;right:0px;}
+.feed-list-box .feeds-list ul li .feed-content-box .left {
+    width: 75px !important;
+}
+/*.greentext{color:#3df50e !important;}
+.redtext{color:#f8150a !important;}*/
+.pd50{padding:50px;}
+.feed-list-box .feeds-list ul li .feed-content-box{
+	position: relative;
+	justify-content: start;
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 4px;
+	background-color: #181818;
+	align-items: center;
+	padding: 10px;
+	color: #888;
+}
+.feed-list-box .feeds-list ul li .feed-content-box .left{
+	width: 75px !important;
+	float: left;
+}
+.feed-list-box .feeds-list ul li .feed-content-box .right {
+    overflow-wrap: break-word;
+    word-break: break-word !important;
+}
+.feed-list-box .feeds-list ul li {
+    list-style-type: none;
+	float:none;
+}
+.feed-list-box .feeds-list ul {
+    margin-left: 0px;
+}
+.feed-list-box .feeds-list ul li .feed-content-box .right .time{font-size: 12px;font-weight: normal;display:block;color:#fff;position: absolute;
+right: 0;
+top: 0;
+padding: 5px 15px;text-transform: none;}
+.time i{margin-right:0px !important;}
+.header_notification .feed-list-box .feeds-list ul li .feed-content-box .right p{font-size:14px;font-weight:normal;color:#949494;margin:0px;line-height:18px;}
+.header_notification {
+    background: #101011;
+    box-shadow: 0px 0px 6px 1px #f94343;
+    border-radius: 5px;
+    height: 100%;
+    padding: 15px;
+    font-weight: 500;
+	
+}
+.notification-list sup{
+	background: transparent !important;
+	width: unset !important;
+    height: unset !important;
+    border-radius: unset !important;
+    color: unset !important;
+    display: unset !important;
+    line-height: unset !important;
+    text-align: unset !important;
+    top: -.5em !important;
+    left:unset !important;
+	
+}
+.notification-area span, .frd-rqst-area span {
+    display: inline-block;
+    background-color: #f94343;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    line-height: 19px;
+    position: relative;
+    top: -10px;
+    right: 11px;
+}
+
+.friendship-list .friend-rqst-box .profile-img img {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 5px !important;
+}
+.friendship-list .friend-rqst-box .profile-img {
+   
+    max-width: 75px;
+    flex: 0 0 75px;
+    height: 75px;
+}
+.friendship-list.current-friends .friend-rqst-box .profile-content {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.friend-rqst-box .profile-content h5 {
+    color: #d0d1d2;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.friend-rqst-box .profile-content small {
+    color: #838588;
+	font-size: 80%;
+font-weight: 400;
+}
+.friendship-list .friend-rqst-box .accept-rqst-btn, .friendship-list .friend-rqst-box .accept-rqst-btn:hover{
+	background: #22b14c;
+margin-bottom: 10px;
+margin-top: 0;
+outline: none;
+color: #fff;
+font-size: 14px;
+width: 90px;
+height: 32px;
+border-radius: 3px;
+box-shadow:none;
+padding: 5px 15px 4px 15px;
+border: none;
+text-align: center;
+cursor: pointer;
+}
+.friendship-list .friend-rqst-box .deny-rqst-btn, .friendship-list .friend-rqst-box .deny-rqst-btn:hover{
+	background: #f94343;
+	box-shadow:none;
+margin-bottom: 0px;
+margin-top: 0;
+outline: none;
+color: #fff;
+font-size: 14px;
+width: 90px;
+height: 32px;
+border-radius: 3px;
+padding: 5px 15px 4px 15px;
+border: none;
+text-align: center;
+cursor: pointer;
+}
+.ps_scrollbar {
+  position: relative;
+  width: 100%;
+  color:#888;
+  height: 150px;
+  overflow: auto;
+  font-size:14px;
+}
+.ps_scrollbar > .ps__rail-x,
+   .ps_scrollbar > .ps__rail-y {   opacity: 0.6; }
+.left-icon{background-color:#1d1f23;}
+.text-timer{padding-bottom:7px;font-size:14px;float:right;color:#fff;width:100%;text-align:right;}
+.notification-area {
+    right: 0;
+    position: relative;
+    top: 0;
+}
+.frd-rqst-area {
+    position: initial!important;
+    top: 0;
+}
+.notification-area img, .frd-rqst-area img{
+	/* filter:invert(81%) sepia(100%) saturate(38%) hue-rotate(333deg) brightness(109%) contrast(113%); */
+	filter:invert(90%) sepia(130%) saturate(0%) hue-rotate(111deg) brightness(200%) contrast(152%);
+}
+
+/*Notification dropdown*/
+.header_notification{width:400px;padding:15px;}
+.header_notification h3{font-size:18px;margin-bottom:10px;color:#fff;}
+.header_notification .ps_scrollbar{height:auto;max-height:400px;}
+.header_notification ul li{margin-bottom:10px !important;margin-left:0px;}
+.header_notification .feed-content-box{padding:10px !important;}
+.header_notification .feed-list-box .feeds-list ul li .feed-content-box .feed-profile-image img{width:70px !important;height:70px !important;border-radius:5px;}
+.header_notification .feed-list-box .feeds-list ul li .feed-content-box .right{justify-content: left;padding-left:10px;}
+.notification_bottom{opacity:1;margin-bottom:0px;padding-top:5px;text-align:center;}
+.notification_bottom a{color:#fff;font-size:14px;}
+.header_notification .feed-list-box .feeds-list ul{margin-bottom:10px;}
+
+.friend_req h3{font-size:18px;margin-bottom:0px;color:#fff;line-height:20px;}
+.friend_req .req_count{font-size:12px;margin-bottom:15px;color:#fff;line-height:20px;font-weight:300;}
+.friend_req .friendship-list.current-friends{padding:0px;border-radius:4px;background-color: #181818;box-shadow:none;}
+.friend_req .friendship-list .friend-rqst-box{
+	border-radius:4px;
+	background-color:transparent;
+	box-shadow:none;
+	padding:10px;
+	margin-bottom:10px;
+	font-size:14px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/* Notification dropdown end */
+.header_notification .right .notification-area{padding:0px;}
+.header_notification .right .notification-area img, .header_notification .right .frd-rqst-area img{max-width:unset;}
+.header_notification .notification-list{
+	padding-right: 0;
+	display: flex;
+	align-items: center;
+	width: calc(100% - 75px);
+	justify-content: left;
+padding-left: 10px
+}
+.notification-area img{height:25px;}
+#feed_updates img{height:30px;}
+.navbar.header .flush a{margin-top:0px !important;}
+.hamburger{position: relative;
+top: 3px;}
+.modal-content-suburb, .modal-content-search{background:#fff  !important;color:#333333 !important;box-shadow:none  !important;border-radius:15px;padding-bottom:30px;}
+.modal-content-suburb .modal-title, .modal-content-search .modal-title{color:#333333;text-transform:none;}
+.modal-content-suburb .modal-header .fa-times-circle, .modal-content-search .modal-header .fa-times-circle{color:#888;}
+.modal-content-suburb .modal-title p, .modal-content-search .modal-title p{line-height:28px;}
+.modal-content-suburb .modal-header, .modal-content-search .modal-header{border:none;}
+.modal-content-search .search-popup-select{background:#fff;color:#333;}
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+    body .navbar-inverse .right{width: 68%}
+}
+
+
+
+@media only screen and (min-width:768px) {
+	
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+  
+}
+
+@media only screen and (max-width:767px) {
+	.modal-content-suburb .modal-header, .modal-content-search .modal-header{padding: 0px 5px;padding-bottom:10px;}
+}
+@media only screen and (max-width:600px) {
+
+
+}
+@media only screen and (max-width:575px) {
+
+}
+.show-on-mobile{display:none;}
+@media only screen and (max-width:560px) {
+	.notification-box .feed-list-box .feeds-list ul li .feed-content-box{padding:5px;flex-wrap:initial;}
+	.notification-box .feed-list-box .feeds-list ul li .feed-content-box .right h5{padding-top:10px;}
+	.notification-box .feed-list-box .feeds-list ul li .feed-content-box .right .time, .comment-box .time{font-size:10px;}
+	.notification-box .feed-list-box .feeds-list ul li{margin-bottom:15px !important;}
+	.right.notification-list span.time{padding-top:4px;}
+	.header_notification{width:400px;padding:10px;}
+	
+	.friend_req{right:-50px;}
+}
+
+@media only screen and (max-width:520px) {
+	.header_notification{width:400px;padding:10px;right:-50px;}
+	.friend_req{right:-100px;}
+	.pd50{padding:0px;}
+}
+@media only screen and (max-width:460px) {
+	.header_notification{width:360px;padding:10px;right:-50px;}
+	.friend_req{right:-120px;}
+}
+@media only screen and (max-width:400px) {
+	.header_notification{width:340px;padding:10px;right:-60px;}
+	.friend_req{right:-122px;}
+	.notification-area img{height:20px;}
+	#feed_updates img{height:22px;}
+	.notification-area span, .frd-rqst-area span {height:16px;width:16px;line-height:15px;font-size:10px;text-align:center;}
+	
+}
+@media only screen and (max-width:360px) {
+	.header_notification{width:300px;padding:10px;right:-82px;}
+	.friend_req{right:-120px;}
+}
+
+.header_notification .hidden-on-xs{display:none !important;}
+
+
+.overflow-hidden{overflow:hidden;}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  right: 0;
+  background-color: #F2F2F2;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 767px) {
+  .sidenav {padding-top: 20px;}
+  .sidenav .closebtn {top:70px}
+}
